@@ -10,7 +10,7 @@ Homebrew (brew) is a free and open-source package manager for macOS that enables
 - The Terminal application is located in the Utilities folder in the Applications folder.
 - You will need to install one other piece of software before you can install Homebrew:
 
-  - **Xcode Command-Line Tools** 
+  - **Xcode Command-Line Tools:** 
   - You can check if they are already installed by running the following command:
 
   ```bash
