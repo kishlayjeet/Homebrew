@@ -10,21 +10,21 @@ Homebrew (brew) is a free and open-source package manager for macOS that enables
 - The Terminal application is located in the Utilities folder in the Applications folder.
 - You will need to install one other piece of software before you can install Homebrew:
 
-  - **Xcode Command-Line Tools**
+  - **Xcode Command-Line Tools:**
     You can check if they are already installed by running the following command:
 
-  ```bash
-   xcode-select --install
-  ```
+    ```bash
+    xcode-select --install
+    ```
 
-  If the Command Line Tools are not installed, a pop-up window will appear asking you to install them. Follow the prompts to complete the installation.
+    If the Command Line Tools are not installed, a pop-up window will appear asking you to install them. Follow the prompts to complete the installation.
 
 ## Install Homebrew
 
 Once the Command Line Tools are installed, you can install Homebrew by running the following command in the terminal:
 
 ```bash
- ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 This will download and run the Homebrew installation script. Follow the instructions you'll see in the terminal explaining what you need to do to complete the installation process.
@@ -36,7 +36,7 @@ You can learn more about Homebrew installation at the [Homebrew](https://brew.sh
 To update Homebrew to the latest version, run the following command:
 
 ```bash
- brew update
+brew update
 ```
 
 This will update the list of available packages and their versions in the Homebrew package repository.
@@ -46,7 +46,7 @@ This will update the list of available packages and their versions in the Homebr
 To search for a package in the Homebrew package repository, run the following command:
 
 ```bash
- brew search <package>
+brew search <package>
 ```
 
 Replace <package> with the name of the package you are looking for. This will return a list of packages that match your search query.
@@ -56,7 +56,7 @@ Replace <package> with the name of the package you are looking for. This will re
 To install a package from the Homebrew package repository, run the following command:
 
 ```bash
- brew install <package>
+brew install <package>
 ```
 
 Replace <package> with the name of the package you want to install. This will download and install the package, as well as any dependencies it may have.
@@ -66,7 +66,7 @@ Replace <package> with the name of the package you want to install. This will do
 To list all the packages that are currently installed through Homebrew, run the following command:
 
 ```bash
- brew list
+brew list
 ```
 
 This will return a list of all the installed packages, along with their versions.
@@ -76,7 +76,7 @@ This will return a list of all the installed packages, along with their versions
 To uninstall a package that was installed through Homebrew, run the following command:
 
 ```bash
- brew uninstall <package>
+brew uninstall <package>
 ```
 
 Replace <package> with the name of the package you want to uninstall. This will remove the package and any files it has installed on your system.
@@ -86,7 +86,7 @@ Replace <package> with the name of the package you want to uninstall. This will 
 To check which of your installed packages have updates available in the Homebrew package repository, run the following command:
 
 ```bash
- brew outdated
+brew outdated
 ```
 
 This will return a list of packages that have newer versions available.
@@ -96,7 +96,7 @@ This will return a list of packages that have newer versions available.
 To upgrade a package to the latest version available in the Homebrew package repository, run the following command:
 
 ```bash
- brew upgrade <package>
+brew upgrade <package>
 ```
 
 Replace <package> with the name of the package you want to upgrade. This will download and install the latest version of the package, as well as any dependencies it may have.
@@ -106,12 +106,14 @@ Replace <package> with the name of the package you want to upgrade. This will do
 You can uninstall Homebrew by running the following command in the terminal:
 
 ```bash
- ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
 ```
 
 This will download and run the uninstaller script. Follow the instructions, and Homebrew will be removed from your computer.
 
-#### In conclusion, Homebrew is a powerful and easy-to-use package manager for macOS that allows users to quickly and easily install, update, and manage a wide range of apps and software. With a few simple commands, you can search for and install new packages, upgrade outdated packages, and uninstall packages that you no longer need. Homebrew is a valuable tool for anyone using a Mac, and it can save time and effort when it comes to managing your software and apps. Whether you are a beginner or an experienced user, Homebrew is an essential tool to have in your toolkit.
+## Conclusion
+
+Homebrew is a powerful and easy-to-use package manager for macOS that allows users to quickly and easily install, update, and manage a wide range of apps and software. With a few simple commands, you can search for and install new packages, upgrade outdated packages, and uninstall packages that you no longer need. Homebrew is a valuable tool for anyone using a Mac, and it can save time and effort when it comes to managing your software and apps. Whether you are a beginner or an experienced user, Homebrew is an essential tool to have in your toolkit.
 
 ## Authors
 
